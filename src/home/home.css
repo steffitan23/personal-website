@@ -1,0 +1,46 @@
+.typing {
+  width: 10ch;
+  animation: typing 3s steps(20), blink 1s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 5px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.profile-pic {
+  height: 220px;
+  animation: hithere 3s ease;
+  border-radius: 100%;
+  border: 8px solid var(--main-color);
+  animation-delay: 2.5s;
+}
+
+@keyframes hithere {
+  30% {
+    transform: scale(1.05);
+  }
+  40%,
+  60% {
+    transform: rotate(-10deg) scale(1.05);
+  }
+  50% {
+    transform: rotate(10deg) scale(1.05);
+  }
+  70% {
+    transform: rotate(0deg) scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
