@@ -44,3 +44,36 @@
     transform: scale(1);
   }
 }
+
+.tab-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.tab-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.tab-exit {
+  opacity: 1;
+}
+.tab-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0.25;
+    line-height: 500px;
+  }
+  to {
+    opacity: 1;
+    line-height: 45px;
+  }
+}
+
+.slide-up {
+  animation: slide-up 2s;
+}

@@ -7,17 +7,17 @@ function Nav(props) {
       <hr />
       <ul className="navbar">
         <li>
-          <Link to="/about" className="navitem">
+          <Link to="/about" className="navitem" onClick={props.aboutClick}>
             about
           </Link>
         </li>
         <li>
-          <Link to="/work" className="navitem">
+          <Link to="/work" className="navitem" onClick={props.workClick}>
             work
           </Link>
         </li>
         <li>
-          <Link to="/contact" className="navitem">
+          <Link to="/contact" className="navitem" onClick={props.contactClick}>
             contact
           </Link>
         </li>

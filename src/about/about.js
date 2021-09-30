@@ -11,8 +11,7 @@ function About() {
       <br />
       <br />
       <b>💖 likes:</b> responsive websites, linguistics, kungfu panda 3 (baby
-      pandas!) 🐼🎍
-      <br />
+      pandas!) 🐼 <br />
       <br />
       <b>🤮 dislikes:</b> cold weather, walking uphill, sand 🏖️
       <br />

@@ -1,75 +1,74 @@
 hr {
-    width: 50vw;
-    height: 7px;
-    background-color: var(--main-color);
-    border: 0px;
+  width: 50vw;
+  height: 7px;
+  background-color: var(--main-color);
+  border: 0px;
 }
 
-
 .navbar {
-    display: flex;
-    list-style-type: none;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 0px;
+  display: flex;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
 }
 
 .navbar .navitem {
-    flex: 1;
-    font-size: var(--body-size);
-    color: var(--main-color);
-    font-weight: 700;
-    text-align: center;
-    text-decoration: none;
+  flex: 1;
+  font-size: var(--body-size);
+  color: var(--main-color);
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
 }
 
 .navbar .navitem,
 .navbar .navitem:after,
 .navbar .navitem:before {
-  transition: all .8s;
-  position:relative;
+  transition: all 0.8s;
+  position: relative;
   z-index: 1;
 }
 .navbar .navitem:hover {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .navbar .navitem:after {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
-    height: 100%;
-    width: 1px;
-    content: '.';
-    color: transparent;
-    background: var(--main-color);
-    visibility: none;
-    opacity: 0;
-    z-index: -1;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  height: 100%;
+  width: 1px;
+  content: ".";
+  color: transparent;
+  background: var(--main-color);
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
 }
 
 .navbar .navitem:hover:after {
-    opacity: 1;
-    visibility: visible;
-    width: 100%;
-}  
+  opacity: 1;
+  visibility: visible;
+  width: 100%;
+}
 
 @media only screen and (max-width: 700px) {
-    .navbar {
-        flex-wrap: wrap;
-    }
-
-    .navbar .navitem {
-        font-size: 28px;
-    }
-
-    hr {
-        width: 90vw;
-    }
+  .navbar {
+    flex-wrap: wrap;
+    flex-direction: column;
   }
 
+  .navbar .navitem {
+    font-size: 28px;
+  }
+
+  hr {
+    width: 90vw;
+  }
+}
