@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 
 :root {
-  --main-color: #FF7878;
+  --main-color: #ff7878;
   --accent-color: rgb(75, 68, 68);
-  --background-color: #F3F0D7;
-  --main-font: 'Roboto', sans-serif;
+  --grid-color: rgb(255, 255, 255);
+  --background-color: #f3f0d7;
+  --main-font: "Roboto", sans-serif;
   --heading-size: 6vw;
   --body-size: 2vw;
 }
@@ -38,7 +39,7 @@ body {
 @media only screen and (max-width: 750px) {
   .main-container {
     padding: 25px;
-  } 
+  }
   .heading1 {
     font-size: 50px;
   }
