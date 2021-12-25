@@ -2,9 +2,92 @@
   font-family: var(--main-font);
   color: var(--accent-color);
   font-size: var(--body-size);
-  text-align: left;
+  text-align: center;
   font-weight: 300;
-  margin: 0 8%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+.copy-container {
+  display: inline-block;
+}
+.button-container {
+  list-style: none;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  width: 65px;
+  height: 65px;
+  padding: 15px;
+  margin: 10px;
+  border-style: solid;
+  border-width: 0 0 5px;
+  transition-property: box-shadow, border, margin;
+  transition-duration: 250ms;
+  position: relative;
+  border-radius: 25px;
+}
+.button:active {
+  margin-top: 13px;
+}
+.button .button-image {
+  fill: #fff;
+  transition-property: top;
+  transition-duration: 250ms;
+}
+.button .button:active .button-image {
+  top: 26px;
+}
+.copy {
+  width: 35px;
+  height: 35px;
+  padding: 3px;
+  margin: 0px;
+}
+
+.button.copy {
+  background: #e0875e;
+  border-color: #c76c42;
+  border-radius: 10px;
+  border-width: 0 0 3px;
+  transition-duration: 100ms;
+  margin-top: 8px;
+}
+
+.button.copy:active {
+  box-shadow: 0 -1px 0 1px #c76c42;
+  border-width: 0 0 0;
+  margin-top: 9px;
+}
+
+.button.insta {
+  background: #dd2a7b;
+  border-color: #a31957;
+}
+.button.insta:active {
+  box-shadow: 0 -1px 0 1px #a31957;
+  border-width: 0 0 0;
+}
+.button.linkedin {
+  background: #0e76a8;
+  border-color: #005d8f;
+}
+.button.linkedin:active {
+  box-shadow: 0 -1px 0 1px #005d8f;
+  border-width: 0 0 0;
+}
+
+.button.github {
+  background: #222222;
+  border-color: #111;
+}
+.button.github:active {
+  box-shadow: 0 -1px 0 1px #111111;
+  border-width: 0 0 0;
 }
 
 @media only screen and (max-width: 750px) {

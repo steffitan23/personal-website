@@ -10,10 +10,10 @@ function About() {
       cognitive science.
       <br />
       <br />
-      <b>💖 likes:</b> responsive websites, linguistics, kungfu panda 3 (baby
-      pandas!) 🐼 <br />
+      <b>likes:</b> responsive websites, linguistics, kungfu panda 3 (baby
+      pandas!) <br />
       <br />
-      <b>🤮 dislikes:</b> cold weather, walking uphill, sand 🏖️
+      <b>dislikes:</b> cold weather, walking uphill, sand
       <br />
       <br />
       <b>stacks:</b> MERN/MEAN, angular + firebase

@@ -17,18 +17,27 @@
 
 .work-item {
   background-color: rgba(255, 255, 255, 0.514);
-  flex: 1 1 450px;
+  flex: 1 1 350px;
   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.15);
   border-radius: 25px;
 }
 
-.work-heading {
-  /* background-color: #25494c; */
+.exp {
   background-color: var(--accent-color-2);
+}
+
+.proj {
+  background-color: var(--main-color);
+}
+
+#proj-heading {
+  color: var(--main-color);
+}
+.work-heading {
   padding: 20px;
   border-radius: 20px 20px 0px 0px;
   color: var(--background-color);
-  font-size: calc(var(--body-size) * 0.6);
+  font-size: calc(var(--body-size) * 0.65);
 }
 
 .work-desc {

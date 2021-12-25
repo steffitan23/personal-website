@@ -11,7 +11,7 @@ function Nav(props) {
             about
           </Link>
         </li>
-        <li>
+        <li id="work">
           <Link to="/work" className="navitem" onClick={props.workClick}>
             work
           </Link>
