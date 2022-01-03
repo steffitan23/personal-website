@@ -3,6 +3,116 @@ import "./work.css";
 function Work() {
   return (
     <div className="work-wrapper">
+      <h1 id="proj-heading">Projects</h1>
+      <div className="work-container">
+        <div className="work-item">
+          <div className="proj work-heading">
+            <b>Game Review Classifier</b>
+            <br />
+          </div>
+          <div className="work-desc">
+            <p>
+              Used BERT (transformers-based ML NLP technique) Tokenizer,
+              Tensorflow Hub, and Convolutional Neural Network for binary
+              classification of game reviews as positive or negative. Achieved
+              99.8% accuracy.
+            </p>
+            <div className="btn-container">
+              <a
+                href="https://github.com/steffitan23/GameReviewClassifier"
+                className="code-btn"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="work-item">
+          <div className="proj work-heading">
+            <b>Netflix Content Recommender</b>
+            <br />
+          </div>
+          <div className="work-desc">
+            <p>
+              Used Rake and NLTK for preprocessing, with scikit-learn's
+              CountVectorizer and Cosine Similarity to recommend similar Netflix
+              content based on a user's input movie/show.
+            </p>
+            <div className="btn-container">
+              <a
+                href="https://github.com/steffitan23/NetflixRecommender"
+                className="code-btn"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="work-item">
+          <div className="proj work-heading">
+            <b>Spam Filter</b>
+            <br />
+          </div>
+          <div className="work-desc">
+            <p>
+              Used NLTK, Pandas, and scikit-learn's Naive Bayes Classifier to
+              filter spam vs ham messages from University of California,
+              Irvine's SMS Spam Collection. Achieved 95% accuracy.
+            </p>
+            <div className="btn-container">
+              <a
+                href="https://github.com/steffitan23/SpamFilter"
+                className="code-btn"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="work-item">
+          <div className="proj work-heading">
+            <b>
+              Boston Hacks Hackathon
+              <br />
+              Warn (Best Mental Health Hack)
+            </b>
+            <br />
+            October 2021
+          </div>
+          <div className="work-desc">
+            <p>
+              Built chrome extension with Javascript that filters out
+              potentially triggering images, audio, and video, using AssemblyAI
+              and Amazon Rekognition APIs
+            </p>
+            <div className="btn-container">
+              <a
+                href="https://github.com/steffitan23/Warn"
+                className="code-btn"
+              >
+                Github
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="work-item">
+          <div className="proj work-heading">
+            <b>
+              HackOn Hackathon <br />
+              Project DandyLion
+            </b>
+            <br />
+            June 2021
+            <br />
+          </div>
+          <div className="work-desc">
+            <p>
+              Created mental wellness chat website with Flask, SQLite3, React,
+              Node.js, Auth0
+            </p>
+          </div>
+        </div>
+      </div>
       <h1>Work Experience</h1>
       <div className="work-container">
         <div className="work-item">
@@ -61,44 +171,6 @@ function Work() {
               Commissioned to create 6 A6 art pieces and leaflets for the
               Edinburgh Science Festival, featured in an exhibition hosted by
               the British Ecological Society
-            </p>
-          </div>
-        </div>
-      </div>
-      <h1 id="proj-heading">Projects</h1>
-      <div className="work-container">
-        <div className="work-item">
-          <div className="proj work-heading">
-            <b>
-              Boston Hacks Hackathon
-              <br />
-              Warn (Best Mental Health Hack)
-            </b>
-            <br />
-            October 2021
-          </div>
-          <div className="work-desc">
-            <p>
-              Built chrome extension with Javascript that filters out
-              potentially triggering images, audio, and video, using AssemblyAI
-              and Amazon Rekognition APIs
-            </p>
-          </div>
-        </div>
-        <div className="work-item">
-          <div className="proj work-heading">
-            <b>
-              HackOn Hackathon <br />
-              Project DandyLion
-            </b>
-            <br />
-            June 2021
-            <br />
-          </div>
-          <div className="work-desc">
-            <p>
-              Created mental wellness chat website with Flask, SQLite3, React,
-              Node.js, Auth0
             </p>
           </div>
         </div>

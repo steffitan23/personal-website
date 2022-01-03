@@ -41,8 +41,8 @@ function Home() {
       </div>
       <div className="heading1 typing">hi! i'm steffi.</div>
       <div className="heading2 intro slide-up">
-        i’m a <b>web developer/graphic designer</b> who loves pretty things,
-        illustration, and everything UI.
+        i’m a <b>web developer</b> who loves pretty things, linguistics, and
+        everything UI.
       </div>
       <Nav
         aboutClick={aboutClick}

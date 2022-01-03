@@ -8,7 +8,7 @@
   --background-color: #f6f0e9;
   --main-font: "Roboto", sans-serif;
   --heading-size: 3vw;
-  --body-size: 1.5vw;
+  --body-size: 28px;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
   margin: 0 8%;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
   .main-container {
     padding: 25px;
   }
@@ -51,8 +51,8 @@ body {
   }
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 900px) {
   .main-container {
-    padding: 5% 20%;
+    padding: 5% 25%;
   }
 }

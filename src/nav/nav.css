@@ -58,7 +58,7 @@ hr {
   width: 100%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   .navbar {
     flex-wrap: wrap;
     flex-direction: column;
@@ -69,6 +69,16 @@ hr {
   }
 
   hr {
-    width: 90vw;
+    width: calc(var(--body-size) * 11);
   }
+}
+
+@media only screen and (min-width: 900px) {
+  .navbar .navitem {
+    font-size: 28px;
+  }
+
+  /* hr {
+    width: 90vw;
+  } */
 }

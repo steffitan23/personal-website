@@ -4,7 +4,7 @@
   font-size: var(--body-size);
   text-align: left;
   font-weight: 300;
-  margin: 0 8%;
+  justify-self: left;
 }
 
 @media only screen and (max-width: 750px) {
