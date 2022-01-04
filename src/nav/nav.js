@@ -7,17 +7,29 @@ function Nav(props) {
       <hr />
       <ul className="navbar">
         <li>
-          <Link to="/about" className="navitem" onClick={props.aboutClick}>
+          <Link
+            to="/personal-website/about"
+            className="navitem"
+            onClick={props.aboutClick}
+          >
             about
           </Link>
         </li>
         <li id="work">
-          <Link to="/work" className="navitem" onClick={props.workClick}>
+          <Link
+            to="/personal-website/work"
+            className="navitem"
+            onClick={props.workClick}
+          >
             work
           </Link>
         </li>
         <li>
-          <Link to="/contact" className="navitem" onClick={props.contactClick}>
+          <Link
+            to="/personal-website/contact"
+            className="navitem"
+            onClick={props.contactClick}
+          >
             contact
           </Link>
         </li>
